@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BTL Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Search Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.example.SearchTests">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="setupReport"/>
+          <include name="setUp"/>
+          <include name="testSearchAndVerifyResults"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.SearchTests -->
+    </classes>
+  </test> <!-- Search Tests(failed) -->
+  <test thread-count="5" name="Branches Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.example.BranchesTests">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="setupReport"/>
+          <include name="testNavigateToBranches"/>
+          <include name="setUp"/>
+          <include name="testBranchDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.BranchesTests -->
+    </classes>
+  </test> <!-- Branches Tests(failed) -->
+  <test thread-count="5" name="Insurance Fee Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.example.InsuranceFeeTests">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="setupReport"/>
+          <include name="setUp"/>
+          <include name="testInsuranceFeeForYeshivaStudent"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.InsuranceFeeTests -->
+    </classes>
+  </test> <!-- Insurance Fee Tests(failed) -->
+  <test thread-count="5" name="Unemployment Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.example.UnemploymentTests">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="setupReport"/>
+          <include name="setUp"/>
+          <include name="testUnemploymentBenefitCalculation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.UnemploymentTests -->
+    </classes>
+  </test> <!-- Unemployment Tests(failed) -->
+  <test thread-count="5" name="Navigation Parameterized Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.example.NavigationParameterizedTests">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="setupReport"/>
+          <include name="setUp"/>
+          <include name="testNavigationAndBreadcrumbs" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.NavigationParameterizedTests -->
+    </classes>
+  </test> <!-- Navigation Parameterized Tests(failed) -->
+</suite> <!-- Failed suite [BTL Automation Suite] -->

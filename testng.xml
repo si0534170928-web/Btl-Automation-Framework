@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BTL Automation Suite" verbose="1">
+    <test name="Search Tests">
+        <classes>
+            <class name="com.example.SearchTests"/>
+        </classes>
+    </test>
+    <test name="Branches Tests">
+        <classes>
+            <class name="com.example.BranchesTests"/>
+        </classes>
+    </test>
+    <test name="Insurance Fee Tests">
+        <classes>
+            <class name="com.example.InsuranceFeeTests"/>
+        </classes>
+    </test>
+    <test name="Unemployment Tests">
+        <classes>
+            <class name="com.example.UnemploymentTests"/>
+        </classes>
+    </test>
+    <test name="Navigation Parameterized Tests">
+        <classes>
+            <class name="com.example.NavigationParameterizedTests"/>
+        </classes>
+    </test>
+</suite>
