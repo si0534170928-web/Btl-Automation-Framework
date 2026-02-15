@@ -7,6 +7,8 @@ public class UnemploymentTests extends BaseTest {
 
     @Test(description = "חישוב דמי אבטלה - תסריט 7")
     public void testUnemploymentBenefitCalculation() {
+        test = extent.createTest("חישוב דמי אבטלה");
+
         HomePage homePage = new HomePage(driver);
 
         // ניווט: קצבאות והטבות -> אבטלה

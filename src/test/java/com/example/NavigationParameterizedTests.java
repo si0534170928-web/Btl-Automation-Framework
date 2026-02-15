@@ -19,6 +19,8 @@ public class NavigationParameterizedTests extends BaseTest {
 
     @Test(dataProvider = "benefitPages", description = "ניווט לדפי קצבאות ובדיקת breadcrumbs - תסריט 8")
     public void testNavigationAndBreadcrumbs(String subMenu, String expectedBreadcrumb) {
+        test = extent.createTest("ניווט ל-" + subMenu);
+
         HomePage homePage = new HomePage(driver);
         homePage.navigateTo(MainMenu.BENEFITS, subMenu);
 

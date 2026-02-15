@@ -21,6 +21,8 @@ public class BranchesTests extends BaseTest {
 
     @Test(description = "בדיקת פרטי סניף - תסריט 5")
     public void testBranchDetails() {
+        test = extent.createTest("בדיקת פרטי סניף");
+
         HomePage homePage = new HomePage(driver);
         BranchesPage branchesPage = homePage.clickBranches();
         BranchDetailsPage detailsPage = branchesPage.clickBranch(0);
